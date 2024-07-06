@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from './logo.png';
 import calbean from './calbean_cover.png'
 import './App.css';
 
