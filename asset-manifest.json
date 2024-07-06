@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.fb5023a2.css",
-    "main.js": "/static/js/main.d5d70ef8.js",
+    "main.js": "/static/js/main.fa5d9690.js",
     "static/js/453.96cba20d.chunk.js": "/static/js/453.96cba20d.chunk.js",
+    "static/media/calbean_cover.png": "/static/media/calbean_cover.eec4710eec55ac460865.png",
     "index.html": "/index.html",
     "main.fb5023a2.css.map": "/static/css/main.fb5023a2.css.map",
-    "main.d5d70ef8.js.map": "/static/js/main.d5d70ef8.js.map",
+    "main.fa5d9690.js.map": "/static/js/main.fa5d9690.js.map",
     "453.96cba20d.chunk.js.map": "/static/js/453.96cba20d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb5023a2.css",
-    "static/js/main.d5d70ef8.js"
+    "static/js/main.fa5d9690.js"
   ]
 }
