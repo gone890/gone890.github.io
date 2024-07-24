@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
+import logo from './logo.png';
 import calbean from './calbean_cover.png'
 import './App.css';
 
 function App() {
 
-  const [calvin, setCalvin] = useState(null)
+  const [calvin, setCalvin] = useState(false)
 
   function handleCalvin(e){
     e.preventDefault();
-    setCalvin(1);
+    setCalvin(!calvin);
   }
   
 
@@ -21,7 +22,7 @@ function App() {
           <code>Hello :{")"} </code>
         </p>
         <p><code>I'm Evan, here are my projects.</code></p>
-        <button onClick={handleCalvin}><code>calvin mode</code></button>
+        {!calvin ? <button onClick={handleCalvin}><code>calvin mode</code></button> : <button onClick={handleCalvin}><code>calvin mode off</code></button>}
       </header>
     </div>
   );
