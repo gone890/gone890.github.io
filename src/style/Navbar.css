@@ -1,0 +1,26 @@
+.navbar-outer{
+    background-color: rgb(63, 130, 255);
+    height: 50px;
+    max-width: 50%;
+    margin: 2.5%;
+    border: 2px solid rgb(197, 197, 201);
+    border-radius: 2px;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-name-logo{
+    float: left;
+    font-weight: bolder;
+    margin: 12px 20px;
+}
+
+.navbar-items{
+    float: right;
+    margin: 12px 20px;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
